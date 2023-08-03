@@ -1,0 +1,10 @@
+application:
+  rateLimiters:
+    - rateLimiterName: ratelimiter1
+      timeValue: 1s
+      limitForPeriod: 2
+  hazelcast:
+    rateLimiterBucketName: ratelimiter-bucketmap
+    hazelcastClusterAddresses: 192.168.1.227:5701
+
+
