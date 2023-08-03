@@ -1,3 +1,4 @@
-Before start app:
-docker run -e JAVA_OPTS="-Dhazelcast.local.publicAddress=192.168.1.227:5701 -Dhazelcast.rest.enabled=true" -itd
--p 5701:5701 hazelcast/hazelcast:3.12.6
+## Requirements:
+1. Java 11
+2. SpringBoot 2.1.8.RELEASE
+3. Hazelcast 3.12.13
